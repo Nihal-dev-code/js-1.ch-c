@@ -13,12 +13,18 @@ addtwonumbers()   //arguments
 addtwonumbers(3,7)
 
 // parameter
-function loginusermessage(username){
-    if(!username){
-        console.log("enter a username");
+// function loginusermessage(username){
+//     if(!username){
+//         console.log("enter a username");
         
 
-    }
-    return `${username} just logged in`
+//     }
+//     return `${username} just logged in`
+// }
+// console.log(loginusermessage());
+function calculatecartprice(...num1){
+
+    return num1
 }
-console.log(loginusermessage());
+console.log(calculatecartprice(20,30,40));
+ 
