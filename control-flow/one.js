@@ -30,6 +30,7 @@ else if(balance > 900){
 const userloggedin=true
 const debitcard=true
 
-if (userloggedin&&debitcard){
+if (userloggedin&&debitcard)
+    {
     console.log("allow to buy course");
 }
