@@ -8,3 +8,11 @@ if(useremail){
 
 // truthy values
 // "0", 'false',  " ", [], {}, function(){}
+
+// nullish coalescing operator (??): null undefined
+
+let val1;
+val1=5??10
+// val1=10??5
+
+console.log(val1);
