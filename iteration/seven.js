@@ -1,9 +1,10 @@
 const mynumers=[1,2,3,4,5,6,7,8,9,10]
-   const  mynums=mynumers.map((num)=>{return num+10})
-    console.log(mynums);
-    console.log(mynumers);
+   // const  mynums=mynumers.map((num)=>{return num+10})
+   const mynums=mynumers
+   .map((num)=> num*10) 
+   .map((num)=>num+1)
+   .filter((num)=>num>=40)
+   console.log(mynums);
     
-    if((mynumers[1])==1){
-     console.log(num+12);
-    }
+    
     
